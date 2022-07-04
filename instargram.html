@@ -10,17 +10,18 @@
         <div> 
             <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo-2x.png/1b47f9d0e595.png">
             <input type="search" value="검색">
+            
 
         </div>
 
         <!-- 프로필 영역 -->
-        <div>
-            <img src="img/profile.jpg" width="50px">
+        <div class="profile">
+            <div class="profile_pic">
+            <img class="circle_pic"src="img/profile.jpg" width="50px">
+        </div>
             <h2>half_bottle</h2><br>
             <button>프로필 편집<br></button>
-            <input type="radio" name="dd"> 한식
-            <input type="radio" name="dd"> 중식
-            <input type="radio"> 일식 
+        
      
 
         </div>
@@ -37,14 +38,13 @@
         </div>
 
         <!-- 하이라이트 -->
-        <div>
-            하이라이트가 들어갈 자리
+        <div id="highlight_list">
 
             <!-- 각각의 하이라이트 -->
             <div class="highlight">
                 <!-- 사진 -->
-                <div>
-                    <img src="img/hl_1.jpg" width="30px">
+                <div class="highlight_pic">
+                    <img class="circle_pic" src="img/hl_1.jpg" width="30px">
                 </div>
                 <!-- 이모티콘 -->
                 <div>
@@ -56,8 +56,8 @@
              <!-- 각각의 하이라이트 -->
              <div class="highlight">
                 <!-- 사진 -->
-                <div>
-                    <img src="img/hl_2.jpg" width="30px">
+                <div class="highlight_pic">
+                    <img class="circle_pic" src="img/hl_2.jpg" width="30px">
                 </div>
                 <!-- 이모티콘 -->
                 <div>
@@ -69,8 +69,8 @@
              <!-- 각각의 하이라이트 -->
              <div class="highlight">
                 <!-- 사진 -->
-                <div>
-                    <img src="img/hl_3.jpg" width="30px">
+                <div class="highlight_pic">
+                    <img class="circle_pic" src="img/hl_3.jpg" width="30px">
                 </div>
                 <!-- 이모티콘 -->
                 <div>
@@ -86,40 +86,43 @@
         </div>
 
         <!-- 상태표시줄 -->
-        <div>
-            <p>게시물<br>
-                팔로워<br>
-                팔로우<br>
-                133<br>
-                408<br>
-                189<br>
-                </p>
+        <div id="stat_list">
+        <div class="stat_bar">
+                <div class=stat> 게시물<br>133</div> 
+                <div class=stat> 팔로워<br>408</div> 
+                <div class=stat> 팔로우<br>189</div> 
 
+      
+        </div>
         </div>
 
         <!-- 아이콘 -->
-        <div>
+        <div class="icon">
             아이콘이 들어갈 자리
 
 
         </div>
-
+          
         <!-- 게시물 썸네일 -->
-        <div>
-           <img src="thumnail/thumnail_01.jpg" width="30%">
-           <img src="thumnail/thumnail_02.jpg" width="30%">
-           <img src="thumnail/thumnail_03.jpg" width="30%">
-           <img src="thumnail/thumnail_04.jpg" width="30%">
-           <img src="thumnail/thumnail_05.jpg" width="30%">
-           <img src="thumnail/thumnail_06.jpg" width="30%">
-           <img src="thumnail/thumnail_07.jpg" width="30%">
-           <img src="thumnail/thumnail_08.jpg" width="30%">
-           <img src="thumnail/thumnail_09.jpg" width="30%">
+        <div id="thumnail">
 
-
+        <div class="thumnail_grid">
+           <img src="thumnail/thumnail_01.jpg" width="30%" class="thumnail_img">
+           <img src="thumnail/thumnail_02.jpg" width="30%"class="thumnail_img">
+           <img src="thumnail/thumnail_03.jpg" width="30%"class="thumnail_img">
+        </div>
+        <div class="thumnail_grid">  
+           <img src="thumnail/thumnail_04.jpg" width="30%"class="thumnail_img">
+           <img src="thumnail/thumnail_05.jpg" width="30%"class="thumnail_img">
+           <img src="thumnail/thumnail_06.jpg" width="30%"class="thumnail_img">
+        </div>
+        <div class="thumnail_grid">
+           <img src="thumnail/thumnail_07.jpg" width="30%"class="thumnail_img">
+           <img src="thumnail/thumnail_08.jpg" width="30%"class="thumnail_img">
+           <img src="thumnail/thumnail_09.jpg" width="30%"class="thumnail_img">
         </div>
         
-   
+    </div>
    
 
        

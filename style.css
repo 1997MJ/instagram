@@ -1,15 +1,98 @@
+              /* 공통 영역 */
+
+              .circle_pic{
+
+                border: solid white 1px;
+                border-radius: 50%;
+
+                width:100%;
+                height: 100%;
+
+                object-fit:cover;
+            }
 
             h2{
                 color:red;
             }
-            .highlight{
-                border:solid;
+        
+              
+            /* 하이라이트 영역 */
+
+             #highlight_list{
+
+                display:grid;
+                grid-template-columns: 45px 45px 45px 1fr;
             }
+
+            .highlight{
+               text-align: center;
+            }
+            .highlight_pic{
+                    width: 40px;
+                    height: 40px;
+
+                    margin :auto auto;
+            }
+           
+    
+             
+                
+
+
+            /* 프로파일 영역 */
+            
             #profile{
                 border:solid;
                 border-color:blue;
             }
-            
+
+
+            .profile_pic{
+                width: 50px;
+                height: 50px;
+            }
+
+           
+
+
+            /* 썸네일 영역 */
+            #thumnail{
+
+            }
+
+            .thumnail_grid{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            .thumnail_img{
+                width: 100%;
+                height:100%                
+            }
+
+
+
+            /* 바 영역 */
+
+            #stat_list{
+
+            }
+
+            .stat_bar{
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+
+                border-top: 1px solid gray;
+                border-bottom: 1px solid gray;
+
+                margin :5px 5px;
+            }
+            .stat{
+                text-align: center;
+            }
+
+
+          
+
 
 
  
