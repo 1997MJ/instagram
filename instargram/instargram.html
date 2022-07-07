@@ -2,10 +2,10 @@
     <head>
         <link href="style.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="script.js"></script>
     </head>
     <body>
-
-
+        
         <!-- 상단바 -->
         <div id="top"> 
             <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo-2x.png/1b47f9d0e595.png">
@@ -25,11 +25,11 @@
         <!-- 프로필 영역 -->
         <div id="profile">
             <div class="profile_pic">
-            <img class="circle_pic"src="img/profile.jpg" width="50px">
+            <img class="circle_pic" src="img/profile.jpg" width="50px">
             </div>
-        <div class="profile_info">
-            <div class="profile_id">half_bottle</div>
-            <button class="profile_button">프로필 편집<br></button>
+        <div id="profile_info">
+            <div id="profile_id"><span>half_bottle</span> <i class="fa-solid fa-cog"></i></div>
+            <button>프로필 편집<br></button>
         </div>
      
 
@@ -38,10 +38,10 @@
         <!-- 소개글 -->
         <div id="profile_story">
             
-                <strong>문준영(junyoung Mun)</strong><br>
-                작가<br>
+                <strong id="profile_name">문준영(junyoung Mun)</strong>
+                <div id="profile_job">작가</div>
            
-           <p><a href="https://mjcoding.tistory.com/">MJcoding.tistory.com</a><br></p>
+           <p id="profile_address"><a href="https://mjcoding.tistory.com/">MJcoding.tistory.com</a></p>
 
 
         </div>

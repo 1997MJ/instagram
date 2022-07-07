@@ -21,10 +21,11 @@
            #top{
             display: grid;
             grid-template-columns: 4fr 7fr 4fr;
-            height: 30px;
+            height: 35px;
 
             border-bottom: solid 0.1px gray;
             margin-bottom: 10px;
+           
 
            }
            
@@ -47,12 +48,12 @@
 
            }
            #top i{
-            font-size:3vw;
+            font-size:2vw;
            }
            
            #top div{
             text-align: center;
-            height: 3vw;
+            height: 2vw;
            
            }
 
@@ -82,7 +83,7 @@
                 
 
 
-            /* 프로파일 영역 */
+            /* 프로필 영역 */
             
             #profile{
                 display:grid;
@@ -90,7 +91,7 @@
                 
 
             }
-            .profile_info{
+            #profile_info{
                 display:grid;
                 grid-template-rows: 1fr 1fr;
                 height: 15vw;
@@ -102,19 +103,23 @@
                 width: 15vw;
                 height: 15vw;
             }
-            .profile_id{
-                font-size: 6vw;
+            #profile_id {
+                font-size: 5vw;
                 font-weight: 100;
+                font-size: 6vmin;
 
             }
-            .profile_button{
-                height: 80%;
-                width:85%;
+            #profile button{
+                height:6vw;
+            
+                width:30vw;
+                width: 50vmin;
 
                 font-size:3vw;
                 border: solid 1px gray;
-                border-radius: 3px;
+                border-radius: 5px;
                 background-color: white;
+                
                 
             }
            
@@ -172,6 +177,7 @@
                 margin:10px 10px;
 
                 font-size:3vw;
+                font-size:3vmin;
             }
 
           
